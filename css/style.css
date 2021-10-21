@@ -1,0 +1,485 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+ /* ===================================header========================================== */
+#div{
+    background: url('../img/futuristic-horizon-background-with-blue-light_52683-25182.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+#header{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background:linear-gradient( rgba(41, 3, 68,0.7) ,rgba(91, 10, 150,0.7),rgba(143, 18, 233,0.7),rgba(226, 66, 247,0.7),rgba(64, 76, 243,0.7) ) ; 
+}
+.navbar{
+    background-color: #262627;
+    width: 100%;
+    height: 50px;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+}
+.start{
+    float: left;
+    width: 15%;
+}
+.nav{ 
+    float: left;
+    width: 80%;
+    text-align: center;
+    color: aliceblue;
+}
+.nav1{
+    flex-direction: row;
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 15px;
+    margin-top: 15px;
+    padding:  10px 10px;
+    justify-content: space-between;
+}
+.nav1:hover{
+    color: #737373;
+}
+.titlle{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 50px;
+    text-transform:uppercase ;  
+}
+.name{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 50px;
+    text-transform:uppercase ;
+}
+.firsthead{
+    font-size: 35px;
+}
+.bott{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 50px;
+    text-transform:uppercase ;
+}
+.bot{
+    width:120px ;
+    height: 30px;
+    border: 1px solid aliceblue ;
+    font-size: 14px; 
+    font-weight: bold;
+
+}
+.learnbth{
+    background-color: rgb(41, 167, 41);
+    color: #ffffff;
+    border-radius: 5px;
+}
+.learnbth:hover{
+    background-color: rgb(158, 161, 158);
+    color: #080808;
+    cursor: pointer;
+}
+.startbth{
+    background: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.startbth:hover{
+    background-color: #44494e;
+    color: #737373;
+    cursor: pointer;
+}
+ /* ======================================اعمالنا======================================= - */
+.firstsection{
+    background-color:#000000;
+}
+.workform{
+    background-color:#000000;
+    margin: auto;
+}
+.ourwork{
+    text-align: right;
+    color: #898989;
+    margin-top: 0px;
+    padding-top: 30px; 
+    margin-right: 300px;
+    font-size: 30px;
+}
+.ourwork2{
+    text-align: right;
+    color: #737373;
+    margin-right: 280px;
+    padding-right: 15px;
+}
+.colam{
+    display: flex;
+}
+.boxwork{
+    width: 330px;
+    height:360px;
+    background-color: #44494e;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    overflow: auto;
+    margin: auto;
+    /* margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px; */
+}
+.boxwork:hover{
+    opacity: 0.8;
+}
+.box1{
+    text-align: center;
+    color: #fcfcfd;
+    background-color: #3a3d40;
+    width:330px ;
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 15px;
+}
+.paragrahWork{
+    color: #d1d3d4;
+    line-height: 30px;
+    margin-right: 15px;
+}
+
+.workbth{
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    /* margin-right: 50%; */
+}
+.ourworkbth{
+    margin: auto;
+    background-color:#064906;
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 18px;
+    border: 1px solid rgb(216, 212, 212);
+    color: rgb(216, 212, 212);
+}
+.workbth .ourworkbth:hover{
+    cursor: pointer;
+    background-color: #A9AAAC;
+    color:#2a2d30 ;
+}
+.endfooter{
+    text-align: center;
+    background-color:#2a2d30;
+    color: #969899;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 100%;
+}
+/* ==========================================العنوان===================================== */
+.addrees{
+    background:linear-gradient(  rgba(5, 5, 5, 0.7) ,rgba(46, 45, 46, 0.7),rgba(63, 62, 63, 0.7),rgba(83, 77, 83, 0.7),rgba(130, 132, 167, 0.7) ) ; 
+}
+.adddiv1{
+    display: flex;
+ 
+}
+.adddivsize{
+    width: 65%;
+}
+.adddivsize2{
+    width: 45%;
+    color: #000;
+    margin-top: 5px;
+}
+.addreeshead{
+    font-size: 25px;
+    color: #d1d3d4;
+    border: 2px solid #44494e;
+    border-radius: 6px;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+}
+.addhead{
+    font-size: 25px;
+    text-decoration:none;
+    color: #fcfafa;
+}
+.compelethead{
+    font-size: 20px;
+    text-decoration:none;
+    color:#0a0a0a;
+}
+.phonehead{
+    font-size: 20px;
+    text-decoration:none;
+    color: #1d1d1d;
+}
+.sihead{
+    font-size: 15px;
+    text-decoration:none;
+    color: #1d1d1d;
+}
+.addressform{
+    font-size: 15px;
+    text-decoration:none;  
+}
+.addressform{
+    margin: auto;
+    background-color: #262627;
+    width: 150px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 14px;
+    border: 1px solid rgb(216, 212, 212);
+    color: rgb(216, 212, 212);
+}
+.addressform:hover{
+    background-color: #A9AAAC;
+    color: #000;
+    cursor: pointer;
+}
+/* ====================معتمدونا============================= */
+.compeny{
+    margin: auto;
+    text-align: center;
+    margin-top: -20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.compeny2{
+    margin: auto;
+    text-align: center;
+    background:linear-gradient(  rgba(5, 5, 5, 0.7) ,rgba(46, 45, 46, 0.7),rgba(63, 62, 63, 0.7),rgba(83, 77, 83, 0.7),rgba(130, 132, 167, 0.7) ) ; 
+    margin-top: 0%;
+}
+.compenydivs{
+    /* display: inline-block; */
+    margin: auto;
+}
+.compenyhead{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    border:1px solid grey;
+    background-color: none;
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    color: white;
+    
+    margin-bottom: 40px;
+}
+.comdiv{
+    margin-top: 20px;
+}
+ /* ==========================================المدونة================================  */
+.blogsection{
+    background-color: black;
+}
+.imablogform{
+    position: relative;
+}
+.bigblog{
+    display: flex;
+}
+.fi{
+    margin: auto;
+}
+.fab{
+    font-size: 30px;
+    color: #afb1b1;
+    margin: 15px;
+}
+.paralogform{
+    color: rgb(247, 233, 233);
+}
+.imgblogg{
+    position: relative;
+}
+.paralogform{
+    position: absolute;
+    top: 20px;
+    background-color: rgb(12, 11, 11);
+    opacity: 0.6;
+    border: 2px solid #000;
+    border-radius: 5px;  
+}
+.fir{
+    margin-right:5% ;
+}
+.sco{
+    margin-right: 35%;
+    margin-top: -40px;
+}
+.fir{
+    margin-right:2% ;
+}
+.sco{
+    margin-right: 15%;
+    margin-top: -40px;
+}
+.thr{
+    margin-right:5% ;
+    margin-top: 5px;
+}
+.for{
+    margin-right: 15%;
+    margin-top: -40px;
+}
+.blogheader {
+    border: 2ps solid white;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+.bloghead{
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    width: 100px;
+    font-family: cursive;
+    border-radius: 5px;
+}
+/* ============================================تسجيل الدخول للموقع=================================  */
+.email{
+    margin: auto;
+    width: 50%;
+    background-color: #000;
+}
+.sinhead{
+    color: #afb1b1;
+    text-align: center;
+    font-size: 25px;
+}
+.form{
+    margin: auto;
+}
+.inputyour{
+    height: 40px;
+    text-align: center;
+    color: black;
+    background-color: #A9AAAC;
+}
+.inputyour:hover{
+    height: 40px;
+    text-align: center;
+    color: cyan;
+    background-color: #44494e;
+    color:#A9AAAC ;
+    font-size: 15px;
+}
+.last:hover{
+    height: 60px;
+    text-align: center;
+    color: cyan;
+    background-color: #44494e;
+    color:#A9AAAC ;
+    font-size: 15px;
+}
+.ff{
+    display: block;
+    width:520px;
+    margin: auto;
+    margin-top: 20px;
+}
+.ss{
+    display: block;
+    width: 520px;
+    margin: auto;
+    margin-top: 20px;
+}
+.last{
+    height: 60px;
+}
+.emailsin{
+    /* margin: auto; */
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 15px 15px;
+}
+.sinbth{
+    background-color: #d1d3d4;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+}
+.emailsin .sinbth:hover{
+    background-color: #737373;
+    cursor: pointer;
+    text-align: center;
+}
+/* =====================================النهاية======================================== */
+footer #footer{
+    background:linear-gradient(  rgba(5, 5, 5, 0.7) ,rgba(46, 45, 46, 0.7),rgba(63, 62, 63, 0.7),rgba(83, 77, 83, 0.7),rgba(130, 132, 167, 0.7) ) ; 
+    height: 200px;
+    background-size: cover;
+    padding: 35px;
+    color:#000;
+}
+#footer .side{
+    float: left;
+    width: 33.333%;
+    padding: 20px;
+}
+#footer .link-title{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.infoside .link-about{
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.infoside .social-link{
+    text-align: center;
+}
+.socialicon:hover{
+    color: #000;
+    cursor: pointer;
+}
+#footer .quicklinks .link{
+    margin-left: 25px;
+}
+.quicklinks .linkli{
+    margin-bottom: 2px;
+}
+.quicklinks .linkcom{
+    color: #fff;
+    font-size: 15px;
+}
+.quicklinks .linkcom:hover{
+    color: #898989;
+    text-decoration: underline;
+}
+.headaddrees{
+    margin: auto;
+    border-radius: 5px;
+    color:#fff;
+    height: 50px;
+    writing-mode: vertical-lr;
+}
+.add{
+    text-align: center;
+    font-size: 40px;
+}
