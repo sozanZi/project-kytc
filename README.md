@@ -1,5 +1,5 @@
 # project-kytc
-#### sozan ziad
+#### sozan ziad :black_heart:
 ## first solo project
 ### blue web design company
 #This project talks about a commercial advertising development company website on:
