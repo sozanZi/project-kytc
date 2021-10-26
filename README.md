@@ -2,7 +2,7 @@
 #### sozan ziad :black_heart:
 ## first solo project
 ### blue web design company
-#This project talks about a commercial advertising development company website on:
+# This project talks about a commercial advertising development company website on:
 * Commercial Business
 * Who do business with the company
 * Services that distinguish the company from other companies
