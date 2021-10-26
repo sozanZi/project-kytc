@@ -1,5 +1,5 @@
 # project-kytc
-** sozan ziad
+* sozan ziad
 ## first solo project
 ### blue web design company
 
